@@ -1,0 +1,82 @@
+Return-Path: <fail2ban@jobjoin.tk>
+X-Original-To: daniyl@jobjoin.tk
+Delivered-To: daniyl@jobjoin.tk
+Received: by danik22122005.realhost-free.net (Postfix, from userid 0)
+	id 087001614A6; Tue,  9 Feb 2021 06:11:15 +0200 (EET)
+Subject: [Fail2Ban] postfix-sasl: banned 103.156.92.189 from danik22122005.realhost-free.net
+Date: Tue, 09 Feb 2021 06:11:15 +0200
+From: Fail2Ban <fail2ban@jobjoin.tk>
+To: daniyl@jobjoin.tk
+Message-Id: <20210209041116.087001614A6@danik22122005.realhost-free.net>
+
+Hi,
+
+The IP 103.156.92.189 has just been banned by Fail2Ban after
+1 attempts against postfix-sasl.
+
+
+Here is more information about 103.156.92.189 :
+
+% [whois.apnic.net]
+% Whois data copyright terms    http://www.apnic.net/db/dbcopyright.html
+
+% Information related to '103.156.92.0 - 103.156.93.255'
+
+% Abuse contact for '103.156.92.0 - 103.156.93.255' is 'hm-changed@vnnic.vn'
+
+inetnum:        103.156.92.0 - 103.156.93.255
+netname:        S3-VIETSERVER-VN
+descr:          Representative office No. 3 of VietServer Services technology Ltd.
+descr:          Xa Khuc, Chu Phan, Me Linh, Hanoi
+admin-c:        NNA66-AP
+tech-c:         NNA66-AP
+remarks:        send spam and abuse report to admin@vietserver.vn
+country:        VN
+mnt-by:         MAINT-VN-VNNIC
+mnt-irt:        IRT-VNNIC-AP
+mnt-routes:     MAINT-VN-VNNIC
+status:         ASSIGNED PORTABLE
+last-modified:  2020-09-23T04:24:13Z
+source:         APNIC
+
+irt:            IRT-VNNIC-AP
+address:        Ha Noi, VietNam
+phone:          +84-24-35564944
+fax-no:         +84-24-37821462
+e-mail:         hm-changed@vnnic.vn
+abuse-mailbox:  hm-changed@vnnic.vn
+admin-c:        NTTT1-AP
+tech-c:         NTTT1-AP
+auth:           # Filtered
+mnt-by:         MAINT-VN-VNNIC
+last-modified:  2017-11-08T09:40:06Z
+source:         APNIC
+
+person:         Nguyen Ngoc An
+address:        S3-VIETSERVER-VN
+country:        VN
+phone:          +84-971686999
+e-mail:         admin@vietserver.vn
+nic-hdl:        NNA66-AP
+mnt-by:         MAINT-VN-VNNIC
+last-modified:  2020-09-23T04:16:42Z
+source:         APNIC
+
+% Information related to '103.156.92.0/23AS135905'
+
+route:          103.156.92.0/23
+descr:          S3-VIETSERVER-VN
+descr:          Representative office No. 3 of VietServer Services technology Ltd.
+notify:         hieukm@vnpt.vn
+notify:         huypt@vnpt.vn
+notify:         admin@vietserver.vn
+origin:         AS135905
+mnt-by:         MAINT-VN-VNNIC
+last-modified:  2020-10-22T04:44:36Z
+source:         APNIC
+
+% This query was served by the APNIC Whois Service version 1.88.15-SNAPSHOT (WHOIS-UK4)
+
+Regards,
+
+Fail2Ban

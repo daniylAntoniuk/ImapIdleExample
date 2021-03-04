@@ -1,0 +1,86 @@
+Return-Path: <fail2ban@jobjoin.tk>
+X-Original-To: daniyl@jobjoin.tk
+Delivered-To: daniyl@jobjoin.tk
+Received: by danik22122005.realhost-free.net (Postfix, from userid 0)
+	id 0C69A163E19; Tue,  2 Mar 2021 17:10:32 +0200 (EET)
+Subject: [Fail2Ban] postfix: banned 212.70.149.119 from danik22122005.realhost-free.net
+Date: Tue, 02 Mar 2021 17:10:31 +0200
+From: Fail2Ban <fail2ban@jobjoin.tk>
+To: daniyl@jobjoin.tk
+Message-Id: <20210302151032.0C69A163E19@danik22122005.realhost-free.net>
+
+Hi,
+
+The IP 212.70.149.119 has just been banned by Fail2Ban after
+1 attempts against postfix.
+
+
+Here is more information about 212.70.149.119 :
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to '212.70.149.0 - 212.70.149.255'
+
+% Abuse contact for '212.70.149.0 - 212.70.149.255' is 'internethosting-ltd@yandex.ru'
+
+inetnum:        212.70.149.0 - 212.70.149.255
+netname:        INTERNET-HOSTING-LTD
+country:        GB
+org:            ORG-IA1699-RIPE
+admin-c:        ACRO26375-RIPE
+tech-c:         ACRO26375-RIPE
+tech-c:         ACRO26375-RIPE
+status:         ASSIGNED PA
+mnt-by:         Internet-Hosting
+created:        2020-06-04T21:26:43Z
+last-modified:  2020-06-08T18:59:47Z
+source:         RIPE
+
+organisation:   ORG-IA1699-RIPE
+phone:          +447501520497
+org-name:       InternetHosting-LTD
+org-type:       OTHER
+address:        26 New kent Road ,SE16TJ
+address:        London
+abuse-c:        ACRO26375-RIPE
+mnt-ref:        Internet-Hosting
+mnt-by:         Internet-Hosting
+mnt-by:         InternetHosting
+created:        2019-08-12T12:49:00Z
+last-modified:  2019-10-27T09:46:20Z
+source:         RIPE # Filtered
+
+role:           Abuse contact role object
+phone:          +447501520497
+address:        London
+address:        26 New kent Road ,SE16TJ
+abuse-mailbox:  internethosting-ltd@yandex.ru
+nic-hdl:        ACRO26375-RIPE
+mnt-by:         InternetHosting
+mnt-by:         Internet-Hosting
+created:        2019-08-12T12:48:42Z
+last-modified:  2019-10-27T09:45:35Z
+source:         RIPE # Filtered
+
+% Information related to '212.70.149.0/24AS208410'
+
+route:          212.70.149.0/24
+origin:         AS208410
+mnt-by:         TAMATYA-MNT
+mnt-by:         Internet-Hosting
+created:        2020-06-05T11:01:39Z
+last-modified:  2020-06-08T16:06:58Z
+source:         RIPE
+
+% This query was served by the RIPE Database Query Service version 1.99 (WAGYU)
+
+Regards,
+
+Fail2Ban

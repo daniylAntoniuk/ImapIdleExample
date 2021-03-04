@@ -1,0 +1,109 @@
+Return-Path: <fail2ban@jobjoin.tk>
+X-Original-To: daniyl@jobjoin.tk
+Delivered-To: daniyl@jobjoin.tk
+Received: by danik22122005.realhost-free.net (Postfix, from userid 0)
+	id 528D517FC1B; Sun, 28 Feb 2021 19:09:29 +0200 (EET)
+Subject: [Fail2Ban] postfix: banned 45.154.35.236 from danik22122005.realhost-free.net
+Date: Sun, 28 Feb 2021 19:09:29 +0200
+From: Fail2Ban <fail2ban@jobjoin.tk>
+To: daniyl@jobjoin.tk
+Message-Id: <20210228170929.528D517FC1B@danik22122005.realhost-free.net>
+
+Hi,
+
+The IP 45.154.35.236 has just been banned by Fail2Ban after
+1 attempts against postfix.
+
+
+Here is more information about 45.154.35.236 :
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to '45.154.34.0 - 45.154.35.255'
+
+% Abuse contact for '45.154.34.0 - 45.154.35.255' is 'abuse@squareflow.net'
+
+inetnum:        45.154.34.0 - 45.154.35.255
+netname:        NET-SQUAREFLOW
+descr:          SquareFlow Corporation
+org:            ORG-SC593-RIPE
+country:        EU
+admin-c:        SQFC-RIPE
+tech-c:         SQFC-RIPE
+status:         SUB-ALLOCATED PA
+mnt-lower:      SQUAREFLOW-MNT
+mnt-routes:     SQUAREFLOW-MNT
+mnt-domains:    SQUAREFLOW-MNT
+mnt-by:         SQUAREFLOW-MNT
+mnt-by:         INITQ-MNT
+created:        2021-01-04T23:08:26Z
+last-modified:  2021-01-04T23:33:24Z
+source:         RIPE
+
+organisation:   ORG-SC593-RIPE
+org-name:       SquareFlow Corporation
+org-type:       OTHER
+remarks:        =============================================
+address:        SquareFlow Corporation
+address:        1309 Coffeen Avenue, Suite 1553
+address:        Sheridan, 82801, Wyoming
+address:        UNITED STATES
+remarks:        =============================================
+remarks:        We encourage law enforcement agencies to
+remarks:        reach out to legal@squareflow.net with any
+remarks:        FULLY VALID inquiries there could be.
+remarks:        =============================================
+phone:          +31-78-369-0532
+fax-no:         +31-78-369-0534
+remarks:        =============================================
+abuse-c:        ACRO31922-RIPE
+mnt-by:         SQUAREFLOW-MNT
+mnt-ref:        SQUAREFLOW-MNT
+mnt-ref:        INITQ-MNT
+mnt-ref:        PINGIPMAINTAINER
+created:        2020-04-09T11:16:40Z
+last-modified:  2020-11-08T11:45:02Z
+source:         RIPE # Filtered
+
+role:           SQUAREFLOW
+remarks:        =============================================
+address:        SquareFlow Corporation
+address:        1309 Coffeen Avenue, Suite 1553
+address:        Sheridan, 82801, Wyoming
+address:        UNITED STATES
+remarks:        =============================================
+remarks:        We encourage law enforcement agencies to
+remarks:        reach out to legal@squareflow.net with any
+remarks:        FULLY VALID inquiries there could be.
+remarks:        =============================================
+abuse-mailbox:  abuse@squareflow.net
+phone:          +31-78-369-0532
+fax-no:         +31-78-369-0534
+remarks:        =============================================
+nic-hdl:        SQFC-RIPE
+mnt-by:         SQUAREFLOW-MNT
+created:        2020-04-14T11:44:19Z
+last-modified:  2020-11-08T11:44:32Z
+source:         RIPE # Filtered
+
+% Information related to '45.154.35.0/24AS52042'
+
+route:          45.154.35.0/24
+origin:         AS52042
+mnt-by:         SQUAREFLOW-MNT
+created:        2020-07-03T17:10:07Z
+last-modified:  2020-07-03T17:10:07Z
+source:         RIPE
+
+% This query was served by the RIPE Database Query Service version 1.99 (BLAARKOP)
+
+Regards,
+
+Fail2Ban

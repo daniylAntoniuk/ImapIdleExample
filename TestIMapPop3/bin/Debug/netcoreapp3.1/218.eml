@@ -1,0 +1,163 @@
+Return-Path: <fail2ban@jobjoin.tk>
+X-Original-To: daniyl@jobjoin.tk
+Delivered-To: daniyl@jobjoin.tk
+Received: by danik22122005.realhost-free.net (Postfix, from userid 0)
+	id 3892F1614A9; Tue,  9 Feb 2021 12:33:31 +0200 (EET)
+Subject: [Fail2Ban] postfix: banned 139.59.226.224 from danik22122005.realhost-free.net
+Date: Tue, 09 Feb 2021 12:33:30 +0200
+From: Fail2Ban <fail2ban@jobjoin.tk>
+To: daniyl@jobjoin.tk
+Message-Id: <20210209103331.3892F1614A9@danik22122005.realhost-free.net>
+
+Hi,
+
+The IP 139.59.226.224 has just been banned by Fail2Ban after
+1 attempts against postfix.
+
+
+Here is more information about 139.59.226.224 :
+
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/resources/registry/whois/tou/
+#
+# If you see inaccuracies in the results, please report at
+# https://www.arin.net/resources/registry/whois/inaccuracy_reporting/
+#
+# Copyright 1997-2021, American Registry for Internet Numbers, Ltd.
+#
+
+
+NetRange:       139.59.0.0 - 139.59.255.255
+CIDR:           139.59.0.0/16
+NetName:        APNIC-ERX-139-59-0-0
+NetHandle:      NET-139-59-0-0-1
+Parent:         NET139 (NET-139-0-0-0-0)
+NetType:        Early Registrations, Transferred to APNIC
+OriginAS:       
+Organization:   Asia Pacific Network Information Centre (APNIC)
+RegDate:        2004-03-03
+Updated:        2009-10-08
+Comment:        This IP address range is not registered in the ARIN database.
+Comment:        This range was transferred to the APNIC Whois Database as
+Comment:        part of the ERX (Early Registration Transfer) project.
+Comment:        For details, refer to the APNIC Whois Database via
+Comment:        WHOIS.APNIC.NET or http://wq.apnic.net/apnic-bin/whois.pl
+Comment:        
+Comment:        ** IMPORTANT NOTE: APNIC is the Regional Internet Registry
+Comment:        for the Asia Pacific region.  APNIC does not operate networks
+Comment:        using this IP address range and is not able to investigate
+Comment:        spam or abuse reports relating to these addresses.  For more
+Comment:        help, refer to http://www.apnic.net/apnic-info/whois_search2/abuse-and-spamming
+Ref:            https://rdap.arin.net/registry/ip/139.59.0.0
+
+ResourceLink:  http://wq.apnic.net/whois-search/static/search.html
+ResourceLink:  whois.apnic.net
+
+
+OrgName:        Asia Pacific Network Information Centre
+OrgId:          APNIC
+Address:        PO Box 3646
+City:           South Brisbane
+StateProv:      QLD
+PostalCode:     4101
+Country:        AU
+RegDate:        
+Updated:        2012-01-24
+Ref:            https://rdap.arin.net/registry/entity/APNIC
+
+ReferralServer:  whois://whois.apnic.net
+ResourceLink:  http://wq.apnic.net/whois-search/static/search.html
+
+OrgAbuseHandle: AWC12-ARIN
+OrgAbuseName:   APNIC Whois Contact
+OrgAbusePhone:  +61 7 3858 3188 
+OrgAbuseEmail:  search-apnic-not-arin@apnic.net
+OrgAbuseRef:    https://rdap.arin.net/registry/entity/AWC12-ARIN
+
+OrgTechHandle: AWC12-ARIN
+OrgTechName:   APNIC Whois Contact
+OrgTechPhone:  +61 7 3858 3188 
+OrgTechEmail:  search-apnic-not-arin@apnic.net
+OrgTechRef:    https://rdap.arin.net/registry/entity/AWC12-ARIN
+
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/resources/registry/whois/tou/
+#
+# If you see inaccuracies in the results, please report at
+# https://www.arin.net/resources/registry/whois/inaccuracy_reporting/
+#
+# Copyright 1997-2021, American Registry for Internet Numbers, Ltd.
+#
+
+
+
+Found a referral to whois.apnic.net.
+
+% [whois.apnic.net]
+% Whois data copyright terms    http://www.apnic.net/db/dbcopyright.html
+
+% Information related to '139.59.224.0 - 139.59.239.255'
+
+% Abuse contact for '139.59.224.0 - 139.59.239.255' is 'abuse@digitalocean.com'
+
+inetnum:        139.59.224.0 - 139.59.239.255
+netname:        DIGITALOCEAN-AP
+descr:          DigitalOcean, LLC
+country:        SG
+admin-c:        DOIA2-AP
+tech-c:         DOIA2-AP
+abuse-c:        AD699-AP
+status:         ASSIGNED NON-PORTABLE
+mnt-by:         MAINT-DIGITALOCEAN-AP
+mnt-irt:        IRT-DIGITALOCEAN-AP
+last-modified:  2020-05-31T21:40:33Z
+source:         APNIC
+
+irt:            IRT-DIGITALOCEAN-AP
+address:        101 Avenue of the Americas, 10th Floor, New York NY 10013
+e-mail:         abuse@digitalocean.com
+abuse-mailbox:  abuse@digitalocean.com
+admin-c:        DOIA2-AP
+tech-c:         DOIA2-AP
+auth:           # Filtered
+remarks:        abuse@digitalocean.com was validated on 2020-12-23
+mnt-by:         MAINT-DIGITALOCEAN-AP
+last-modified:  2020-12-23T15:19:55Z
+source:         APNIC
+
+role:           ABUSE DIGITALOCEANAP
+address:        101 Avenue of the Americas, 10th Floor, New York NY 10013
+country:        ZZ
+phone:          +000000000
+e-mail:         abuse@digitalocean.com
+admin-c:        DOIA2-AP
+tech-c:         DOIA2-AP
+nic-hdl:        AD699-AP
+remarks:        Generated from irt object IRT-DIGITALOCEAN-AP
+abuse-mailbox:  abuse@digitalocean.com
+mnt-by:         APNIC-ABUSE
+last-modified:  2020-05-31T21:32:24Z
+source:         APNIC
+
+role:           Digital Ocean Inc administrator
+address:        101 Avenue of th Americas, 10th Floor, New York NY 10013
+country:        US
+phone:          +1 646 397 8051
+fax-no:         +1 646 397 8051
+e-mail:         abuse@digitalocean.com
+admin-c:        DOIA2-AP
+tech-c:         DOIA2-AP
+nic-hdl:        DOIA2-AP
+mnt-by:         MAINT-DIGITALOCEAN-AP
+last-modified:  2015-04-02T20:27:52Z
+source:         APNIC
+
+% This query was served by the APNIC Whois Service version 1.88.15-SNAPSHOT (WHOIS-UK4)
+
+Regards,
+
+Fail2Ban

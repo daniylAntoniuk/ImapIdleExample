@@ -1,0 +1,69 @@
+Return-Path: <fail2ban@jobjoin.tk>
+X-Original-To: daniyl@jobjoin.tk
+Delivered-To: daniyl@jobjoin.tk
+Received: by danik22122005.realhost-free.net (Postfix, from userid 0)
+	id D8C5417EF0B; Wed, 10 Feb 2021 21:18:06 +0200 (EET)
+Subject: [Fail2Ban] postfix-sasl: banned 141.98.10.143 from danik22122005.realhost-free.net
+Date: Wed, 10 Feb 2021 21:18:06 +0200
+From: Fail2Ban <fail2ban@jobjoin.tk>
+To: daniyl@jobjoin.tk
+Message-Id: <20210210191806.D8C5417EF0B@danik22122005.realhost-free.net>
+
+Hi,
+
+The IP 141.98.10.143 has just been banned by Fail2Ban after
+1 attempts against postfix-sasl.
+
+
+Here is more information about 141.98.10.143 :
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to '141.98.10.0 - 141.98.10.255'
+
+% Abuse contact for '141.98.10.0 - 141.98.10.255' is 'admin@serveroffer.lt'
+
+inetnum:        141.98.10.0 - 141.98.10.255
+netname:        LT-HOSTBALTIC-10
+country:        LT
+admin-c:        PV7242-RIPE
+tech-c:         PV7242-RIPE
+status:         ASSIGNED PA
+mnt-by:         mnt-lt-hostbaltic-1
+created:        2019-01-10T13:11:38Z
+last-modified:  2019-01-10T13:11:38Z
+source:         RIPE
+
+person:         Paulius Vancugovas
+address:        Draugystes g. 19
+address:        51230
+address:        Kaunas
+address:        LITHUANIA
+phone:          +37067358624
+nic-hdl:        PV7242-RIPE
+mnt-by:         mnt-lt-hostbaltic-1
+created:        2019-01-08T13:14:38Z
+last-modified:  2019-01-09T13:14:40Z
+source:         RIPE
+
+% Information related to '141.98.10.0/24AS209605'
+
+route:          141.98.10.0/24
+origin:         AS209605
+mnt-by:         mnt-lt-hostbaltic-1
+created:        2019-01-23T11:43:09Z
+last-modified:  2019-01-23T11:43:09Z
+source:         RIPE
+
+% This query was served by the RIPE Database Query Service version 1.99 (WAGYU)
+
+Regards,
+
+Fail2Ban

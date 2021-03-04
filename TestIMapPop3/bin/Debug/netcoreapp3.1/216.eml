@@ -1,0 +1,87 @@
+Return-Path: <fail2ban@jobjoin.tk>
+X-Original-To: daniyl@jobjoin.tk
+Delivered-To: daniyl@jobjoin.tk
+Received: by danik22122005.realhost-free.net (Postfix, from userid 0)
+	id 87B421614A9; Tue,  9 Feb 2021 06:42:38 +0200 (EET)
+Subject: [Fail2Ban] postfix: banned 37.59.219.6 from danik22122005.realhost-free.net
+Date: Tue, 09 Feb 2021 06:42:38 +0200
+From: Fail2Ban <fail2ban@jobjoin.tk>
+To: daniyl@jobjoin.tk
+Message-Id: <20210209044238.87B421614A9@danik22122005.realhost-free.net>
+
+Hi,
+
+The IP 37.59.219.6 has just been banned by Fail2Ban after
+1 attempts against postfix.
+
+
+Here is more information about 37.59.219.6 :
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to '37.59.219.0 - 37.59.219.7'
+
+% Abuse contact for '37.59.219.0 - 37.59.219.7' is 'abuse@ovh.net'
+
+inetnum:        37.59.219.0 - 37.59.219.7
+netname:        OVH
+descr:          Dedicated Servers
+country:        NL
+org:            ORG-OB14-RIPE
+admin-c:        OTC7-RIPE
+tech-c:         OTC7-RIPE
+status:         ASSIGNED PA
+mnt-by:         OVH-MNT
+created:        2014-06-30T15:29:39Z
+last-modified:  2014-06-30T15:29:39Z
+source:         RIPE
+
+organisation:   ORG-OB14-RIPE
+org-name:       OVH BV
+org-type:       OTHER
+address:        Corkstraat 46
+address:        3047 AC Rotterdam
+address:        The Netherlands
+mnt-ref:        OVH-MNT
+mnt-by:         OVH-MNT
+created:        2009-03-18T15:51:01Z
+last-modified:  2017-10-30T16:12:36Z
+source:         RIPE # Filtered
+
+role:           OVH NL Technical Contact
+address:        OVH BV
+address:        Corkstraat 46
+address:        3047 AC Rotterdam
+address:        The Netherlands
+admin-c:        OK217-RIPE
+tech-c:         GM84-RIPE
+nic-hdl:        OTC7-RIPE
+abuse-mailbox:  abuse@ovh.net
+mnt-by:         OVH-MNT
+created:        2009-03-18T15:51:01Z
+last-modified:  2009-03-18T15:51:01Z
+source:         RIPE # Filtered
+
+% Information related to '37.59.0.0/16AS16276'
+
+route:          37.59.0.0/16
+descr:          OVH ISP
+descr:          Paris, France
+origin:         AS16276
+mnt-by:         OVH-MNT
+created:        2012-01-25T17:04:21Z
+last-modified:  2012-01-25T17:04:21Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.99 (WAGYU)
+
+Regards,
+
+Fail2Ban

@@ -1,0 +1,18 @@
+Return-Path: <fail2ban@jobjoin.tk>
+X-Original-To: daniyl@jobjoin.tk
+Delivered-To: daniyl@jobjoin.tk
+Received: by danik22122005.realhost-free.net (Postfix, from userid 0)
+	id 308101631B5; Fri, 12 Feb 2021 22:43:34 +0200 (EET)
+Subject: [Fail2Ban] postfix-sasl: stopped on danik22122005.realhost-free.net
+Date: Fri, 12 Feb 2021 22:43:34 +0200
+From: Fail2Ban <fail2ban@jobjoin.tk>
+To: daniyl@jobjoin.tk
+Message-Id: <20210212204334.308101631B5@danik22122005.realhost-free.net>
+
+Hi,
+
+The jail postfix-sasl has been stopped.
+
+Regards,
+
+Fail2Ban

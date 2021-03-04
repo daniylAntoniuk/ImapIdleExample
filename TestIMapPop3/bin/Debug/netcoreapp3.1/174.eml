@@ -1,0 +1,105 @@
+Return-Path: <fail2ban@jobjoin.tk>
+X-Original-To: daniyl@jobjoin.tk
+Delivered-To: daniyl@jobjoin.tk
+Received: by danik22122005.realhost-free.net (Postfix, from userid 0)
+	id 3D0D61630D6; Sun,  7 Feb 2021 14:35:33 +0200 (EET)
+Subject: [Fail2Ban] postfix: banned 193.47.69.220 from danik22122005.realhost-free.net
+Date: Sun, 07 Feb 2021 14:35:32 +0200
+From: Fail2Ban <fail2ban@jobjoin.tk>
+To: daniyl@jobjoin.tk
+Message-Id: <20210207123533.3D0D61630D6@danik22122005.realhost-free.net>
+
+Hi,
+
+The IP 193.47.69.220 has just been banned by Fail2Ban after
+1 attempts against postfix.
+
+
+Here is more information about 193.47.69.220 :
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to '193.47.69.0 - 193.47.69.255'
+
+% Abuse contact for '193.47.69.0 - 193.47.69.255' is 'abuse@virtono.com'
+
+inetnum:        193.47.69.0 - 193.47.69.255
+netname:        VIRTONO
+country:        RO
+org:            ORG-VNS11-RIPE
+admin-c:        DD14236-RIPE
+tech-c:         CD8898-RIPE
+abuse-c:        AR52546-RIPE
+status:         ASSIGNED PA
+mnt-by:         mnt-ro-virtono-1
+created:        2019-11-11T21:47:23Z
+last-modified:  2020-11-18T17:57:38Z
+source:         RIPE
+
+organisation:   ORG-VNS11-RIPE
+org-name:       Virtono Networks SRL
+country:        RO
+org-type:       LIR
+address:        Navodari Business Center 01-32, Bvd. Mamaia Nord nr. 6
+address:        905700
+address:        Navodari
+address:        ROMANIA
+admin-c:        DD14236-RIPE
+admin-c:        CD8898-RIPE
+tech-c:         DD14236-RIPE
+tech-c:         CD8898-RIPE
+abuse-c:        AR52546-RIPE
+mnt-ref:        mnt-ro-virtono-1
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         mnt-ro-virtono-1
+created:        2019-05-08T14:12:23Z
+last-modified:  2020-12-16T12:22:15Z
+source:         RIPE # Filtered
+phone:          +40735781391
+phone:          +40735781392
+
+person:         Catalin Draga
+address:        Str. Midiei nr. 9, bl. M2, sc. a, apt. 15
+address:        905700
+address:        Navodari
+address:        ROMANIA
+phone:          +40 371 305 370
+nic-hdl:        CD8898-RIPE
+mnt-by:         mnt-ro-virtono-1
+created:        2019-05-08T14:12:22Z
+last-modified:  2019-05-08T14:12:23Z
+source:         RIPE
+
+person:         Daniel Draga
+address:        Str. Midiei nr. 9, bl. M2, sc. a, apt. 15
+address:        905700
+address:        Navodari
+address:        ROMANIA
+phone:          +40 371 305 370
+nic-hdl:        DD14236-RIPE
+mnt-by:         mnt-ro-virtono-1
+created:        2019-05-08T14:12:22Z
+last-modified:  2019-05-08T14:12:23Z
+source:         RIPE
+
+% Information related to '193.47.69.0/24AS35478'
+
+route:          193.47.69.0/24
+origin:         AS35478
+mnt-by:         ro-btel2-1-mnt
+created:        2019-10-09T16:39:57Z
+last-modified:  2019-10-09T16:39:57Z
+source:         RIPE
+
+% This query was served by the RIPE Database Query Service version 1.99 (ANGUS)
+
+Regards,
+
+Fail2Ban

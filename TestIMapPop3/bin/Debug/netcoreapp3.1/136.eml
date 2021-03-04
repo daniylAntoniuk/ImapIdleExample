@@ -1,0 +1,90 @@
+Return-Path: <fail2ban@jobjoin.tk>
+X-Original-To: daniyl@jobjoin.tk
+Delivered-To: daniyl@jobjoin.tk
+Received: by danik22122005.realhost-free.net (Postfix, from userid 0)
+	id D9758167A18; Tue,  2 Mar 2021 17:20:23 +0200 (EET)
+Subject: [Fail2Ban] postfix-sasl: banned 103.141.138.220 from danik22122005.realhost-free.net
+Date: Tue, 02 Mar 2021 17:20:23 +0200
+From: Fail2Ban <fail2ban@jobjoin.tk>
+To: daniyl@jobjoin.tk
+Message-Id: <20210302152023.D9758167A18@danik22122005.realhost-free.net>
+
+Hi,
+
+The IP 103.141.138.220 has just been banned by Fail2Ban after
+1 attempts against postfix-sasl.
+
+
+Here is more information about 103.141.138.220 :
+
+% [whois.apnic.net]
+% Whois data copyright terms    http://www.apnic.net/db/dbcopyright.html
+
+% Information related to '103.141.138.0 - 103.141.139.255'
+
+% Abuse contact for '103.141.138.0 - 103.141.139.255' is 'hm-changed@vnnic.vn'
+
+inetnum:        103.141.138.0 - 103.141.139.255
+netname:        PTV-VN
+descr:          PTV Telecom Services Company Limited
+descr:          Hamlet 2, Village 1, Thach Da ward, Me Linh district, Ha Noi City
+admin-c:        NNA62-AP
+tech-c:         NDM14-AP
+country:        VN
+mnt-by:         MAINT-VN-VNNIC
+mnt-lower:      MAINT-VN-VNNIC
+mnt-irt:        IRT-VNNIC-AP
+mnt-routes:     MAINT-VN-VNNIC
+status:         ALLOCATED PORTABLE
+last-modified:  2020-09-22T08:00:39Z
+source:         APNIC
+
+irt:            IRT-VNNIC-AP
+address:        Ha Noi, VietNam
+phone:          +84-24-35564944
+fax-no:         +84-24-37821462
+e-mail:         hm-changed@vnnic.vn
+abuse-mailbox:  hm-changed@vnnic.vn
+admin-c:        NTTT1-AP
+tech-c:         NTTT1-AP
+auth:           # Filtered
+mnt-by:         MAINT-VN-VNNIC
+last-modified:  2017-11-08T09:40:06Z
+source:         APNIC
+
+person:         Nguyen Duc Manh
+address:        PTV-VN
+country:        VN
+phone:          +84-398129166
+e-mail:         ducmanhepu1@gmail.com
+nic-hdl:        NDM14-AP
+mnt-by:         MAINT-VN-VNNIC
+last-modified:  2019-07-25T02:47:02Z
+source:         APNIC
+
+person:         Nguyen Ngoc An
+address:        Hamlet 2, Village 1, Thach Da ward, Me Linh district, Ha Noi City
+country:        VN
+phone:          +84-971686999
+e-mail:         admin@vietserver.vn
+nic-hdl:        NNA62-AP
+mnt-by:         MAINT-VN-VNNIC
+last-modified:  2020-09-22T08:00:04Z
+source:         APNIC
+
+% Information related to '103.141.138.0/23AS135905'
+
+route:          103.141.138.0/23
+descr:          PTV Telecom Services Company Limited
+descr:          PTV Telecom Services Company Limited
+notify:         thaikhanghn@gmail.com
+origin:         AS135905
+mnt-by:         MAINT-VN-VNNIC
+last-modified:  2019-08-05T07:17:10Z
+source:         APNIC
+
+% This query was served by the APNIC Whois Service version 1.88.15-SNAPSHOT (WHOIS-UK3)
+
+Regards,
+
+Fail2Ban

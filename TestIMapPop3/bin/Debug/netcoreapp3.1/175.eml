@@ -1,0 +1,90 @@
+Return-Path: <fail2ban@jobjoin.tk>
+X-Original-To: daniyl@jobjoin.tk
+Delivered-To: daniyl@jobjoin.tk
+Received: by danik22122005.realhost-free.net (Postfix, from userid 0)
+	id BA3AF163128; Sun,  7 Feb 2021 16:25:48 +0200 (EET)
+Subject: [Fail2Ban] postfix-sasl: banned 193.169.254.231 from danik22122005.realhost-free.net
+Date: Sun, 07 Feb 2021 16:25:48 +0200
+From: Fail2Ban <fail2ban@jobjoin.tk>
+To: daniyl@jobjoin.tk
+Message-Id: <20210207142548.BA3AF163128@danik22122005.realhost-free.net>
+
+Hi,
+
+The IP 193.169.254.231 has just been banned by Fail2Ban after
+1 attempts against postfix-sasl.
+
+
+Here is more information about 193.169.254.231 :
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to '193.169.254.0 - 193.169.254.255'
+
+% Abuse contact for '193.169.254.0 - 193.169.254.255' is 'office@gigahostingservices-ou.net'
+
+inetnum:        193.169.254.0 - 193.169.254.255
+netname:        GigaHostingServices-NETWORK
+country:        PL
+org:            ORG-GO67-RIPE
+admin-c:        GO6830-RIPE
+tech-c:         GO6830-RIPE
+status:         ASSIGNED PA
+mnt-by:         pl-fufo-1-mnt
+created:        2018-05-10T11:42:06Z
+last-modified:  2020-06-29T10:41:41Z
+source:         RIPE
+
+organisation:   ORG-GO67-RIPE
+org-name:       GigaHostingServices OU
+country:        EE
+org-type:       LIR
+address:        Tina tn 7-16
+address:        10126
+address:        Tallinn
+address:        ESTONIA
+admin-c:        GO6830-RIPE
+tech-c:         GO6830-RIPE
+abuse-c:        AR60557-RIPE
+mnt-ref:        mnt-ee-gigahostingservices-1
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         mnt-ee-gigahostingservices-1
+created:        2020-06-25T10:31:55Z
+last-modified:  2020-12-16T13:15:16Z
+source:         RIPE # Filtered
+phone:          +48795010361
+
+role:           GigaHostingServices OU
+address:        Tina tn 7-16
+address:        10126
+address:        Tallinn
+address:        ESTONIA
+phone:          +48795010361
+nic-hdl:        GO6830-RIPE
+mnt-by:         mnt-ee-gigahostingservices-1
+created:        2020-06-25T10:31:54Z
+last-modified:  2020-06-27T07:11:44Z
+source:         RIPE # Filtered
+
+% Information related to '193.169.254.0/24AS197226'
+
+route:          193.169.254.0/24
+origin:         AS197226
+descr:          ASTROVM.NET
+mnt-by:         pl-fufo-1-mnt
+created:        2018-11-06T11:14:57Z
+last-modified:  2018-11-06T11:14:57Z
+source:         RIPE
+
+% This query was served by the RIPE Database Query Service version 1.99 (WAGYU)
+
+Regards,
+
+Fail2Ban

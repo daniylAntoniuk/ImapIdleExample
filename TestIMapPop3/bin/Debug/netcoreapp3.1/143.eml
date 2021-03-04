@@ -1,0 +1,85 @@
+Return-Path: <fail2ban@jobjoin.tk>
+X-Original-To: daniyl@jobjoin.tk
+Delivered-To: daniyl@jobjoin.tk
+Received: by danik22122005.realhost-free.net (Postfix, from userid 0)
+	id CC7D61630BE; Wed,  3 Mar 2021 11:23:03 +0200 (EET)
+Subject: [Fail2Ban] postfix-sasl: banned 87.246.7.226 from danik22122005.realhost-free.net
+Date: Wed, 03 Mar 2021 11:23:03 +0200
+From: Fail2Ban <fail2ban@jobjoin.tk>
+To: daniyl@jobjoin.tk
+Message-Id: <20210303092303.CC7D61630BE@danik22122005.realhost-free.net>
+
+Hi,
+
+The IP 87.246.7.226 has just been banned by Fail2Ban after
+1 attempts against postfix-sasl.
+
+
+Here is more information about 87.246.7.226 :
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to '87.246.7.0 - 87.246.7.255'
+
+% Abuse contact for '87.246.7.0 - 87.246.7.255' is 'internethosting-ltd@yandex.ru'
+
+inetnum:        87.246.7.0 - 87.246.7.255
+netname:        INTERNET-HOSTING-LTD
+org:            ORG-IA1699-RIPE
+country:        GB
+admin-c:        ACRO26375-RIPE
+tech-c:         ACRO26375-RIPE
+status:         ASSIGNED PA
+mnt-by:         Internet-Hosting
+created:        2019-08-07T11:49:11Z
+last-modified:  2019-09-04T09:36:10Z
+source:         RIPE
+
+organisation:   ORG-IA1699-RIPE
+phone:          +447501520497
+org-name:       InternetHosting-LTD
+org-type:       OTHER
+address:        26 New kent Road ,SE16TJ
+address:        London
+abuse-c:        ACRO26375-RIPE
+mnt-ref:        Internet-Hosting
+mnt-by:         Internet-Hosting
+mnt-by:         InternetHosting
+created:        2019-08-12T12:49:00Z
+last-modified:  2019-10-27T09:46:20Z
+source:         RIPE # Filtered
+
+role:           Abuse contact role object
+phone:          +447501520497
+address:        London
+address:        26 New kent Road ,SE16TJ
+abuse-mailbox:  internethosting-ltd@yandex.ru
+nic-hdl:        ACRO26375-RIPE
+mnt-by:         InternetHosting
+mnt-by:         Internet-Hosting
+created:        2019-08-12T12:48:42Z
+last-modified:  2019-10-27T09:45:35Z
+source:         RIPE # Filtered
+
+% Information related to '87.246.7.0/24AS208410'
+
+route:          87.246.7.0/24
+origin:         AS208410
+mnt-by:         GCN-LIR-MNT
+mnt-by:         CableBulgaria
+created:        2019-08-12T20:02:54Z
+last-modified:  2019-08-12T20:02:54Z
+source:         RIPE
+
+% This query was served by the RIPE Database Query Service version 1.99 (HEREFORD)
+
+Regards,
+
+Fail2Ban

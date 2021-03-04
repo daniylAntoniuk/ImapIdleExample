@@ -1,0 +1,68 @@
+Return-Path: <fail2ban@jobjoin.tk>
+X-Original-To: daniyl@jobjoin.tk
+Delivered-To: daniyl@jobjoin.tk
+Received: by danik22122005.realhost-free.net (Postfix, from userid 0)
+	id A193017FBB2; Sat, 27 Feb 2021 03:08:10 +0200 (EET)
+Subject: [Fail2Ban] postfix-sasl: banned 103.149.12.29 from danik22122005.realhost-free.net
+Date: Sat, 27 Feb 2021 03:08:10 +0200
+From: Fail2Ban <fail2ban@jobjoin.tk>
+To: daniyl@jobjoin.tk
+Message-Id: <20210227010810.A193017FBB2@danik22122005.realhost-free.net>
+
+Hi,
+
+The IP 103.149.12.29 has just been banned by Fail2Ban after
+1 attempts against postfix-sasl.
+
+
+Here is more information about 103.149.12.29 :
+
+% [whois.apnic.net]
+% Whois data copyright terms    http://www.apnic.net/db/dbcopyright.html
+
+% Information related to '103.149.12.0 - 103.149.13.255'
+
+% Abuse contact for '103.149.12.0 - 103.149.13.255' is 'hm-changed@vnnic.vn'
+
+inetnum:        103.149.12.0 - 103.149.13.255
+netname:        DTEKO-VN
+descr:          DTEKO Vietnam Technology Company Limited
+descr:          21 Nguyen Hoang Ton, Xuan Dinh, Bac Tu Liem, Hanoi
+admin-c:        NNA44-AP
+tech-c:         NNA44-AP
+country:        VN
+mnt-by:         MAINT-VN-VNNIC
+mnt-lower:      MAINT-VN-VNNIC
+mnt-irt:        IRT-VNNIC-AP
+status:         ALLOCATED PORTABLE
+last-modified:  2020-03-03T08:06:25Z
+source:         APNIC
+
+irt:            IRT-VNNIC-AP
+address:        Ha Noi, VietNam
+phone:          +84-24-35564944
+fax-no:         +84-24-37821462
+e-mail:         hm-changed@vnnic.vn
+abuse-mailbox:  hm-changed@vnnic.vn
+admin-c:        NTTT1-AP
+tech-c:         NTTT1-AP
+auth:           # Filtered
+mnt-by:         MAINT-VN-VNNIC
+last-modified:  2017-11-08T09:40:06Z
+source:         APNIC
+
+person:         Nguyen Ngoc An
+address:        DTEKO-VN
+country:        VN
+phone:          +84971686999
+e-mail:         admin@vietserver.vn
+nic-hdl:        NNA44-AP
+mnt-by:         MAINT-VN-VNNIC
+last-modified:  2020-01-17T01:46:40Z
+source:         APNIC
+
+% This query was served by the APNIC Whois Service version 1.88.15-SNAPSHOT (WHOIS-UK3)
+
+Regards,
+
+Fail2Ban
